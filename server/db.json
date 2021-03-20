@@ -1,0 +1,83 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "duncan",
+        "password": "123",
+        "role":"admin",
+        "numberOfBooks":[{
+            "bookId":1,
+            "author": "J .K ",
+            "title": "Harry Potter",
+            "category": "Fiction",
+            "status":"available",
+            "overdueAmount":0
+            
+          },
+          {
+            "bookId":2,
+            "author": "J .K ",
+            "title": "Harry Potter",
+            "category": "Fiction",
+            "status":"borrowed",
+            "overdueAmount":0
+          }],
+          "isBorrowedes":"yes",
+          "borrowedDate":"12/02/2021"
+      },
+      {
+        "id": 2,
+        "username": "duncan",
+        "password": "123",
+        "role":"user",
+        "numberOfBooks":null,
+        "isBorrowedes":"yes",
+        "borrowedDate":"12/02/2021"
+      },
+      {
+        "id": 3,
+        "username": "duncan",
+        "password": "123",
+        "role":"user",
+        "numberOfBooks":null,
+        "isOverDue":null,
+        "isBorrowedes":"yes",
+        "borrowedDate":"12/02/2021"
+      }
+    ],
+    "books": [
+      {
+        "bookId":1,
+        "author": "J .K ",
+        "title": "Harry Potter",
+        "category": "Fiction",
+        "status":"available",
+        "overdueAmount":0
+        
+      },
+      {
+        "bookId":2,
+        "author": "'The New Delhi Conspiracy'",
+        "title": "Meenakshi Lekhi",
+        "category": "Fiction",
+        "status":"borrowed",
+        "overdueAmount":0
+      },
+      {
+        "bookId":3,
+        "author": "J .K ",
+        "title": "Harry Potter",
+        "category": "Fiction",
+        "status":"returned",
+        "overdueAmount":0
+      },
+      {
+        "bookId":4,
+        "author": "J .K ",
+        "title": "Harry Potter",
+        "category": "Fiction",
+        "status":"overdue",
+        "overdueAmount":0
+      }
+    ]
+  }
